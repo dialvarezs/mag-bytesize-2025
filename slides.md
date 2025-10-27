@@ -1,28 +1,39 @@
 ---
-# try also 'default' to start simple
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-# apply UnoCSS classes to the current slide
+theme: default
+title: nf-core/mag v5
 class: text-center
-# https://sli.dev/features/drawing
 drawings:
   persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+accentColor: '#2ca597ff'
+layout: cover
+logo: ./images/mag_logo_mascot_only.svg
+institutionalLogos:
+  - ./images/logo_umag_white.svg
+  - ./images/logo_catg_white.svg
 ---
 
-# nf-core/mag v5.0
+<div class="text-center space-y-2">
+  <div><img src="./images/nf-core_logo.svg" alt="nf-core" style="height: 4rem; display: inline-block;" /></div>
+  <h1 class="!mb-0">mag v5.0</h1>
+</div>
+
+<div class="mt-10">
+
+**Diego Alvarez S. | [<carbon-logo-github class="inline-block w-4 h-4 mb-0.75" /> dialvarezs](https://github.com/dialvarezs)**
+
+<p>
+  <span class="text-sm opacity-70">Universidad de Magallanes</span>
+</p>
+
+</div>
+
+<div class="mt-12">
+
+28.10.2025
+
+</div>
 
 <!--
 -->
@@ -30,6 +41,8 @@ mdc: true
 ---
 transition: fade-out
 ---
+
+# nf-core / mag: Metagenome assembly pipeline
 
 <!--
 -->
