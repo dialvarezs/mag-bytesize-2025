@@ -16,7 +16,7 @@ institutionalLogos:
 
 <div class="text-center space-y-2">
   <div><img src="./images/nf-core_logo.svg" alt="nf-core" style="height: 4rem; display: inline-block;" /></div>
-  <h1 class="!mb-0">mag v5.0</h1>
+  <h1 class="!mb-0">mag v5</h1>
 </div>
 
 <div class="mt-10">
@@ -211,7 +211,7 @@ transition: slide-left
 <div><span class="font-bold text-teal-700 dark:text-teal-300">Binners:</span> CONCOCT</div>
 <div><span class="font-bold text-teal-700 dark:text-teal-300">Bin QC:</span> CheckM, CheckM2</div>
 <div><span class="font-bold text-teal-700 dark:text-teal-300">Viral/eukaryotic MAGs:</span> geNomad, Tiara, MetaEuk</div>
-<div><span class="font-bold text-teal-700 dark:text-teal-300">Coverage normalization:</span> BBNorm</div>
+<div><span class="font-bold text-teal-700 dark:text-teal-300">Depth normalisation:</span> BBNorm</div>
 </div>
 </div>
 
@@ -226,12 +226,10 @@ transition: slide-left
 <div class="text-base font-semibold">Basically everything!</div>
 </div>
 
-<div class="bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-900/30 dark:to-orange-900/30 rounded-lg p-4">
-<div class="flex items-center gap-3 mb-3">
-<h2 class="text-xl m-0">Deprecated</h2>
-</div>
-<div class="text-base font-bold text-red-700 dark:text-red-300">RAW read taxonomic profiling</div>
-<div class="text-sm mt-2">→ Use <strong>nf-core / taxprofiler</strong> instead</div>
+<div class="bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-900/30 dark:to-orange-900/30 rounded-lg p-5">
+<h2 class="text-xl font-bold m-0 mb-3" style="color: #c53939ff !important;">Deprecated</h2>
+<div class="text-base font-bold">RAW read taxonomic profiling</div>
+<div class="text-sm mt-2">→ Use <strong>nf-core/taxprofiler</strong> instead</div>
 </div>
 
 </div>
@@ -240,6 +238,50 @@ transition: slide-left
 
 <!--
 -->
+
+---
+transition: slide-left
+---
+
+# What's New?
+
+
+<div class="bg-gradient-to-r from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-12 max-w-4xl mt-10">
+
+<h2 class="text-center mb-5">🚀 Just Released!</h2>
+<h3 class="text-center mb-10">v5.1.0 - <span class="font-italic">Platinum Pudu</span></h3>
+
+<div class="grid grid-cols-3 gap-12">
+
+<div class="flex flex-col items-center text-center">
+<div class="text-6xl mb-4">📦</div>
+<div class="font-bold text-xl mb-2">New binner</div>
+<div class="text-lg">COMEBin</div>
+</div>
+
+<div class="flex flex-col items-center text-center">
+<div class="text-6xl mb-4">📚</div>
+<div class="font-bold text-xl mb-2">Documentation</div>
+<div>Usage of</div>
+<div class="text-base font-mono bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded mt-1 inline-block">*_percentidentity</div>
+</div>
+
+
+
+<div class="flex flex-col items-center text-center">
+<div class="text-6xl mb-4">🐛</div>
+<div class="font-bold text-xl mb-2">Bug fixes</div>
+<div class="text-lg opacity-70">metaSPAdes CPUs param, LR assembly mode</div>
+</div>
+
+</div>
+
+</div>
+
+
+<!--
+-->
+
 
 ---
 transition: slide-left
@@ -342,47 +384,6 @@ transition: slide-left
 
 # What's Next?
 
-
-<div class="bg-gradient-to-r from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-12 max-w-4xl mt-12">
-
-<h2 class="text-center mb-10">🚀 v5.1.0 - Coming Soon!</h2>
-
-<div class="grid grid-cols-3 gap-12">
-
-<div class="flex flex-col items-center text-center">
-<div class="text-6xl mb-4">📦</div>
-<div class="font-bold text-xl mb-2">New binner</div>
-<div class="text-lg">COMEBin</div>
-</div>
-
-<div class="flex flex-col items-center text-center">
-<div class="text-6xl mb-4">📚</div>
-<div class="font-bold text-xl mb-2">Documentation</div>
-<div class="text-lg">Improvements</div>
-</div>
-
-<div class="flex flex-col items-center text-center">
-<div class="text-6xl mb-4">🐛</div>
-<div class="font-bold text-xl mb-2">Bug fixes</div>
-<div class="text-lg opacity-70">Various fixes</div>
-</div>
-
-</div>
-
-</div>
-
-
-<!--
--->
-
----
-transition: slide-left
----
-
-# What's Next?
-
-## Feature Roadmap
-
 <div class="mt-2">
 
 | Feature | Planned | In Progress | On Review |
@@ -391,8 +392,8 @@ transition: slide-left
 | **Bin QC by multiple tools** | ✅ | ✅ | ✅ |
 | **BigMAG** compatibility | ✅ | ✅ | |
 | **Hostile** for decontamination | ✅ | ✅ | |
+| **nf-test** snapshots (Hackaton!) | ✅ | ✅ | |
 | **CoverM** for bin abundance | ✅ | | |
-| **nf-test** snapshots (Hackaton!) | ✅ | | |
 
 </div>
 
@@ -403,6 +404,10 @@ transition: slide-left
 layout: center
 class: text-center
 ---
+
+<div>
+<img src="./images/mag_logo_mascot_only.svg" alt="nf-core" style="height: 8rem; display: inline-block;" />
+</div>
 
 # Thank you!
 
