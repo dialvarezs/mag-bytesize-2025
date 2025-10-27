@@ -51,11 +51,11 @@ const props = defineProps({
 
         <!-- Right: Content with modern card -->
         <div class="flex flex-col justify-center space-y-8 pl-8">
-          <div class="relative text-white" style="color: white;">
+          <div class="relative text-white">
             <!-- Accent bar -->
             <div class="absolute top-0 bottom-0 w-1.5 rounded-full" :style="{ background: accentColor }"></div>
 
-            <div style="color: white;">
+            <div>
               <slot />
             </div>
           </div>
