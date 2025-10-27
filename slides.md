@@ -42,7 +42,7 @@ institutionalLogos:
 transition: slide-left
 ---
 
-# nf-core / mag: Metagenome assembly pipeline
+# nf-core / mag: Metagenome Assembly Pipeline
 
 TODO: Diagram | Microorganisms -> Sequencing -> Assembly -> Binning -> MAGs
 
@@ -61,29 +61,50 @@ transition: slide-left
 
 ## Timeline
 
-<div class="space-y-5 text-base mt-4">
+<div class="space-y-3 text-sm mt-4">
 
-<div class="flex items-start gap-3">
-<div class="text-2xl">🚀</div>
+<div class="flex items-start gap-2">
+<div class="text-xl">🚀</div>
 <div>
 <div class="font-bold">v1.0 - Dec 2019</div>
-<div class="text-sm opacity-80">By <strong>Hadrien Gourlé</strong></div>
+<div class="text-xs opacity-70 italic">Purple Corgi</div>
+<div class="text-xs opacity-80">Hadrien Gourlé</div>
 </div>
 </div>
 
-<div class="flex items-start gap-3">
-<div class="text-2xl">👥</div>
+<div class="flex items-start gap-2">
+<div class="text-xl">🚀</div>
 <div>
-<div class="font-bold">Past maintainers</div>
-<div class="text-sm opacity-80">Sabrina Krakau<br/>Maxime Borry</div>
+<div class="font-bold">v2.0 - Jun 2021</div>
+<div class="text-xs opacity-70 italic">Silver Swan</div>
+<div class="text-xs opacity-80">Sabrina Krakau</div>
 </div>
 </div>
 
-<div class="flex items-start gap-3">
-<div class="text-2xl">⚡</div>
+<div class="flex items-start gap-2">
+<div class="text-xl">🚀</div>
 <div>
-<div class="font-bold">2024-2025</div>
-<div class="text-sm opacity-80">Major updates v4 & v5</div>
+<div class="font-bold">v3.0 - May 2024</div>
+<div class="text-xs opacity-70 italic">Magenta Magpie</div>
+<div class="text-xs opacity-80">James A. Fellows Yates</div>
+</div>
+</div>
+
+<div class="flex items-start gap-2">
+<div class="text-xl">🚀</div>
+<div>
+<div class="font-bold">v4.0 - May 2025</div>
+<div class="text-xs opacity-70 italic">Blue Huemul</div>
+<div class="text-xs opacity-80">James A. Fellows Yates</div>
+</div>
+</div>
+
+<div class="flex items-start gap-2">
+<div class="text-xl">🚀</div>
+<div>
+<div class="font-bold">v5.0 - Sep 2025</div>
+<div class="text-xs opacity-70 italic">Green Squirrel</div>
+<div class="text-xs opacity-80">James A. Fellows Yates</div>
 </div>
 </div>
 
@@ -101,7 +122,7 @@ transition: slide-left
 
 <div class="text-center">
 <img src="./images/profiles/James.png" class="rounded-full w-20 h-20 mx-auto mb-1.5 object-cover" />
-<div class="text-sm font-bold">James Fellows Yates</div>
+<div class="text-sm font-bold">James A. Fellows Yates</div>
 <a href="https://github.com/jfy133" target="_blank" class="text-xs opacity-60 hover:opacity-100">@jfy133</a>
 </div>
 
@@ -139,13 +160,22 @@ transition: slide-left
 
 </div>
 
-<div class="mt-6 flex justify-center">
-<div class="bg-gray-100 dark:bg-gray-800 rounded-lg px-4 py-2 flex items-center gap-3">
-<img src="./images/profiles/other_contributors.png" class="h-15" />
-<div>
-<div class="text-sm font-bold">+ many other contributors</div>
-<div class="text-xs opacity-60">Thank you all! 🙏</div>
+<div class="mt-6 bg-gray-100 dark:bg-gray-800 rounded-lg p-3">
+<div class="grid grid-cols-[auto_1fr_auto] gap-6 items-center">
+
+<div class="text-sm font-bold opacity-70 whitespace-nowrap">Thanks! 🙏</div>
+
+<div class="text-xs">
+<span class="font-bold">Past maintainers</span><br />
+Hadrien Gourlé, Sabrina Krakau, <br />
+Maxime Borry
 </div>
+
+<div class="flex items-center gap-2 text-xs">
+<img src="./images/profiles/other_contributors.png" class="h-15" />
+<span class="whitespace-nowrap"><span class="font-bold">+ many other contributors</span></span>
+</div>
+
 </div>
 </div>
 
@@ -160,20 +190,20 @@ transition: slide-left
 transition: slide-left
 ---
 
-# What's new?
+# What's New?
 
 <div class="grid grid-cols-2 gap-8 mt-6">
 
 <div class="space-y-6">
 
-<div class="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/30 dark:to-pink-900/30 rounded-lg p-5">
+<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-lg p-4">
 <div class="flex items-center gap-3 mb-3">
 <h2 class="text-xl m-0">Long read assembly</h2>
 </div>
 <div class="text-base">Using <strong>Flye</strong> and/or <strong>MetaMDBG</strong></div>
 </div>
 
-<div class="bg-gradient-to-br from-green-50 to-teal-50 dark:from-green-900/30 dark:to-teal-900/30 rounded-lg p-5">
+<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-lg p-4">
 <div class="flex items-center gap-3 mb-3">
 <h2 class="text-xl m-0">New tools</h2>
 </div>
@@ -181,6 +211,7 @@ transition: slide-left
 <div><span class="font-bold text-teal-700 dark:text-teal-300">Binners:</span> CONCOCT</div>
 <div><span class="font-bold text-teal-700 dark:text-teal-300">Bin QC:</span> CheckM, CheckM2</div>
 <div><span class="font-bold text-teal-700 dark:text-teal-300">Viral/eukaryotic MAGs:</span> geNomad, Tiara, MetaEuk</div>
+<div><span class="font-bold text-teal-700 dark:text-teal-300">Coverage normalization:</span> BBNorm</div>
 </div>
 </div>
 
@@ -188,14 +219,14 @@ transition: slide-left
 
 <div class="space-y-6">
 
-<div class="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-900/30 dark:to-cyan-900/30 rounded-lg p-5">
+<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-lg p-4">
 <div class="flex items-center gap-3 mb-3">
 <h2 class="text-xl m-0">Updated tools / databases</h2>
 </div>
 <div class="text-base font-semibold">Basically everything!</div>
 </div>
 
-<div class="bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-900/30 dark:to-orange-900/30 rounded-lg p-5 border-2 border-red-200 dark:border-red-700">
+<div class="bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-900/30 dark:to-orange-900/30 rounded-lg p-4">
 <div class="flex items-center gap-3 mb-3">
 <h2 class="text-xl m-0">Deprecated</h2>
 </div>
@@ -211,11 +242,92 @@ transition: slide-left
 -->
 
 ---
+transition: slide-left
+---
+
+# Codebase Improvements
+
+<div class="text-lg mb-8 opacity-80">From v3.0 to v5.0</div>
+
+<div class="grid grid-cols-2 gap-8">
+
+<div class="space-y-6">
+
+<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-4">
+<div class="flex items-center gap-3 mb-2">
+<div class="text-4xl">📝</div>
+<div>
+<div class="text-3xl font-bold">1,106</div>
+<div class="text-sm opacity-80">commits</div>
+</div>
+</div>
+</div>
+
+<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-4">
+<div class="flex items-center gap-3 mb-2">
+<div class="text-4xl">📂</div>
+<div>
+<div class="text-3xl font-bold">626</div>
+<div class="text-sm opacity-80">files changed</div>
+</div>
+</div>
+</div>
+
+<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-4">
+<div class="flex items-center gap-3 mb-2">
+<div class="text-4xl">🧩</div>
+<div>
+<div class="text-3xl font-bold">-23</div>
+<div class="text-sm opacity-80">local modules (migrated to nf-core ones)</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="space-y-6">
+
+<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-4">
+<div class="flex items-center gap-3 mb-2">
+<div class="text-4xl">➕</div>
+<div>
+<div class="text-3xl font-bold text-green-600 dark:text-green-400">50,417</div>
+<div class="text-sm opacity-80">additions</div>
+</div>
+</div>
+</div>
+
+<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-4">
+<div class="flex items-center gap-3 mb-2">
+<div class="text-4xl">➖</div>
+<div>
+<div class="text-3xl font-bold text-red-600 dark:text-red-400">10,678</div>
+<div class="text-sm opacity-80">deletions</div>
+</div>
+</div>
+</div>
+
+
+<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-4">
+<div class="flex items-center gap-3 mb-2">
+<div class="text-4xl">⚙️</div>
+<div>
+<div class="text-3xl font-bold">11</div>
+<div class="text-sm opacity-80">new subworkflows</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+---
 layout: full
 transition: slide-left
 ---
 
-# Current workflow
+# Current Workflow
 
 <div class="mt--18 flex justify-center">
 <img src="./images/mag_metromap_light.png" style="width: 90%" />
@@ -228,64 +340,59 @@ transition: slide-left
 transition: slide-left
 ---
 
-# What's next?
+# What's Next?
 
-<div class="bg-gradient-to-r from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-6 mb-6">
 
-## 🚀 v5.1.0 - Coming Soon!
+<div class="bg-gradient-to-r from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-12 max-w-4xl mt-12">
 
-<div class="grid grid-cols-3 gap-4 mt-4">
+<h2 class="text-center mb-10">🚀 v5.1.0 - Coming Soon!</h2>
 
-<div class="flex items-start gap-2">
-<div class="text-2xl">📦</div>
-<div>
-<div class="font-bold text-sm">New binner</div>
-<div class="text-sm">COMEBin</div>
-</div>
-</div>
+<div class="grid grid-cols-3 gap-12">
 
-<div class="flex items-start gap-2">
-<div class="text-2xl">📚</div>
-<div>
-<div class="font-bold text-sm">Documentation</div>
-<div class="text-sm">Improvements</div>
-</div>
+<div class="flex flex-col items-center text-center">
+<div class="text-6xl mb-4">📦</div>
+<div class="font-bold text-xl mb-2">New binner</div>
+<div class="text-lg">COMEBin</div>
 </div>
 
-<div class="flex items-start gap-2">
-<div class="text-2xl">🐛</div>
-<div>
-<div class="font-bold text-sm">Bug fixes</div>
+<div class="flex flex-col items-center text-center">
+<div class="text-6xl mb-4">📚</div>
+<div class="font-bold text-xl mb-2">Documentation</div>
+<div class="text-lg">Improvements</div>
 </div>
+
+<div class="flex flex-col items-center text-center">
+<div class="text-6xl mb-4">🐛</div>
+<div class="font-bold text-xl mb-2">Bug fixes</div>
+<div class="text-lg opacity-70">Various fixes</div>
 </div>
 
 </div>
 
 </div>
+
+
+<!--
+-->
+
+---
+transition: slide-left
+---
+
+# What's Next?
 
 ## Feature Roadmap
 
-<div class="grid grid-cols-2 gap-8 mt-6">
+<div class="mt-2">
 
-<div>
-
-| Feature | Status |
-|---------|:------:|
-| **MetaBinner** support | 🔍 On Review |
-| **Bin QC** by multiple tools | 🔍 On Review |
-| **nf-test** snapshots | 📋 Planned (hackaton) |
-
-</div>
-
-<div>
-
-| Feature | Status |
-|---------|:------:|
-| **BigMAG** compatibility | 🔨 In Progress |
-| **Hostile** for contamination | 🔨 In Progress |
-| **CoverM** for abundance | 📋 Planned |
-
-</div>
+| Feature | Planned | In Progress | On Review |
+|---------|:-------:|:-----------:|:---------:|
+| **MetaBinner** | ✅ | ✅ | ✅ |
+| **Bin QC by multiple tools** | ✅ | ✅ | ✅ |
+| **BigMAG** compatibility | ✅ | ✅ | |
+| **Hostile** for decontamination | ✅ | ✅ | |
+| **CoverM** for bin abundance | ✅ | | |
+| **nf-test** snapshots (Hackaton!) | ✅ | | |
 
 </div>
 
