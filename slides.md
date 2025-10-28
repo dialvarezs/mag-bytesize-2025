@@ -371,11 +371,155 @@ layout: full
 transition: slide-left
 ---
 
-# Current Workflow
+# Previous Workflow (v4.0)
 
-<div class="mt--18 flex justify-center">
-<img src="./images/mag_metromap_light.png" style="width: 90%" />
+<div class="mt-2 flex justify-center">
+<img src="./images/mag_workflow_v4_0_0.png" style="width: 90%" />
 </div>
+
+<!--
+-->
+
+---
+transition: slide-left
+layout: two-cols-header
+---
+
+# Longread only PR by @muabnezor
+
+::left::
+
+<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-6">
+
+- **Complete rebuild** of the pre-processing and assembly subworkflows
+- **~100 commits**
+- **~6 months** of development
+- **200+ comments**
+
+</div>
+
+::right::
+
+<img src="./images/lr_only_pr.png" class="rounded-lg shadow-xl" />
+
+<style>
+.slidev-layout.two-cols-header {
+  grid-template-columns: 40% 60% !important;
+  column-gap: 1rem !important;
+}
+</style>
+
+<!--
+-->
+
+---
+layout: full
+transition: slide-left
+---
+
+# Current Workflow (v5.1)
+
+<div class="mt--15 flex justify-center">
+<img src="./images/mag_metromap_light.svg" style="width: 85%" />
+</div>
+
+<!--
+-->
+
+---
+layout: full
+transition: slide-left
+---
+
+# nf-core/mag v5.1 - Preprocessing
+
+<div class="flex items-center justify-center h-full">
+  <div style="width: 75%; height: 420px; overflow: hidden; position: relative;">
+    <img src="./images/mag_metromap_light.svg" style="position: absolute; top: -130px; left: 50%; transform: translateX(-25%) scale(1); transform-origin: top center; max-width: none;" />
+  </div>
+</div>
+
+<!--
+-->
+
+---
+layout: full
+transition: slide-left
+---
+
+# nf-core/mag v5.1 - Assembly and Annotation
+
+<div class="flex items-center justify-center h-full">
+  <div style="width: 90%; height: 310px; overflow: hidden; position: relative;">
+    <img src="./images/mag_metromap_light.svg" style="position: absolute; top: -190px; left: 90%; transform: translateX(-89%) scale(1); transform-origin: top center; max-width: none;" />
+  </div>
+</div>
+
+<!--
+-->
+
+---
+layout: full
+transition: slide-left
+---
+
+# nf-core/mag v5.1 - Binning and Refinement
+
+<div class="flex items-center justify-center h-full">
+  <div style="width: 80%; height: 300px; overflow: hidden; position: relative;">
+    <img src="./images/mag_metromap_light.svg" style="position: absolute; top: -600px; left: 90%; transform: translateX(-45%) scale(1); transform-origin: top center; max-width: none;" />
+  </div>
+</div>
+
+<!--
+-->
+
+---
+layout: full
+transition: slide-left
+---
+
+# nf-core/mag v5.1 - Bin QC and Taxonomy
+
+<div class="flex items-center justify-center h-full">
+  <div style="width: 30%; height: 450px; overflow: hidden; position: relative;">
+    <img src="./images/mag_metromap_light.svg" style="position: absolute; top: -420px; left: 50%; transform: translateX(-60%) scale(0.8); transform-origin: top center; max-width: none;" />
+  </div>
+</div>
+
+<!--
+-->
+
+---
+transition: slide-left
+---
+
+# How to run nf-core/mag v5.1.0?
+
+```bash
+nextflow run nf-core/mag -r 5.1.0 \
+  -profile <docker/singularity/podman/shifter/charliecloud/conda/institute> \
+  --input samplesheet.csv \
+  --outdir results/
+```
+
+Mixed short + long read samplesheet
+
+```csv
+sample,group,short_reads_1,short_reads_2,long_reads,short_reads_platform,long_reads_platform
+sample1,0,data/sample1_R1.fastq.gz,data/sample1_R2.fastq.gz,data/sample1.fastq.gz,ILLUMINA,OXFORD_NANOPORE
+sample2,0,data/sample2_R1.fastq.gz,data/sample2_R2.fastq.gz,data/sample2.fastq.gz,ILLUMINA,OXFORD_NANOPORE
+sample3,1,data/sample3_R1.fastq.gz,data/sample3_R2.fastq.gz,,ILLUMINA,
+```
+
+Long read only, merging runs
+```csv
+sample,run,group,long_reads,long_reads_platform
+sample1,1,0,data/sample1a.fastq.gz,OXFORD_NANOPORE
+sample1,2,0,data/sample1b.fastq.gz,OXFORD_NANOPORE
+sample2,0,0,data/sample2.fastq.gz,OXFORD_NANOPORE
+sample3,1,0,data/sample3.fastq.gz,OXFORD_NANOPORE
+```
 
 <!--
 -->
