@@ -388,15 +388,23 @@ layout: two-cols-header
 # Longread only PR by @muabnezor
 
 ::left::
-
-<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-6">
+<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-5">
 
 - **Complete rebuild** of the pre-processing and assembly subworkflows
+- **New tools** specific for long reads
+- **New parameters**
+
+</div>
+
+<div class="bg-gradient-to-br from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-5 mt-3">
+
 - **~100 commits**
+- **~5000 new lines**
 - **~6 months** of development
 - **200+ comments**
 
 </div>
+
 
 ::right::
 
