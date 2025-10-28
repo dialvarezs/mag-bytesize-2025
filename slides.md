@@ -42,9 +42,11 @@ institutionalLogos:
 transition: slide-left
 ---
 
-# nf-core / mag: Metagenome Assembly Pipeline
+# Metagenome Assembly & Binning
 
-TODO: Diagram | Microorganisms -> Sequencing -> Assembly -> Binning -> MAGs
+<div class="mt-24 flex justify-center">
+<img src="./images/binning.svg" style="width: 85%" />
+</div>
 
 <!--
 -->
@@ -246,7 +248,7 @@ transition: slide-left
 # What's New?
 
 
-<div class="bg-gradient-to-r from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-12 max-w-4xl mt-10">
+<div class="bg-gradient-to-r from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-10 max-w-4xl mt-10">
 
 <h2 class="text-center mb-5">🚀 Just Released!</h2>
 <h3 class="text-center mb-10">v5.1.0 - <span class="font-italic">Platinum Pudu</span></h3>
@@ -271,7 +273,7 @@ transition: slide-left
 <div class="flex flex-col items-center text-center">
 <div class="text-6xl mb-4">🐛</div>
 <div class="font-bold text-xl mb-2">Bug fixes</div>
-<div class="text-lg opacity-70">metaSPAdes CPUs param, LR assembly mode</div>
+<div class="text-lg opacity-70">metaSPAdes CPUs config, LR assembly mode and more</div>
 </div>
 
 </div>
