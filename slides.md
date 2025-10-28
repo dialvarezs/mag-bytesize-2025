@@ -482,8 +482,8 @@ transition: slide-left
 # nf-core/mag v5.1 - Bin QC and Taxonomy
 
 <div class="flex items-center justify-center h-full">
-  <div style="width: 30%; height: 450px; overflow: hidden; position: relative;">
-    <img src="./images/mag_metromap_light.svg" style="position: absolute; top: -420px; left: 50%; transform: translateX(-60%) scale(0.8); transform-origin: top center; max-width: none;" />
+  <div style="width: 27%; height: 450px; overflow: hidden; position: relative;">
+    <img src="./images/mag_metromap_light.svg" style="position: absolute; top: -420px; left: 50%; transform: translateX(-59.4%) scale(0.8); transform-origin: top center; max-width: none;" />
   </div>
 </div>
 
@@ -530,18 +530,16 @@ transition: slide-left
 
 # What's Next?
 
-<div class="mt-2">
 
-| Feature | Planned | In Progress | On Review |
-|---------|:-------:|:-----------:|:---------:|
-| **MetaBinner** | ✅ | ✅ | ✅ |
-| **Bin QC by multiple tools** | ✅ | ✅ | ✅ |
-| **BigMAG** compatibility | ✅ | ✅ | |
-| **Hostile** for decontamination | ✅ | ✅ | |
-| **nf-test** snapshots (Hackaton!) | ✅ | ✅ | |
-| **CoverM** for bin abundance | ✅ | | |
+| Feature                           | Planned | In Progress | On Review |
+| --------------------------------- | :-----: | :---------: | :-------: |
+| **MetaBinner**                    |    ✅    |      ✅      |     ✅     |
+| **Bin QC by multiple tools**      |    ✅    |      ✅      |     ✅     |
+| **BigMAG** compatibility          |    ✅    |      ✅      |           |
+| **Hostile** for decontamination   |    ✅    |      ✅      |           |
+| **nf-test** snapshots (Hackaton!) |    ✅    |      ✅      |           |
+| **CoverM** for bin abundance      |    ✅    |             |           |
 
-</div>
 
 <!--
 -->
