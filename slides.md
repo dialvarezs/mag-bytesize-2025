@@ -498,7 +498,7 @@ transition: slide-left
 
 ```bash
 nextflow run nf-core/mag -r 5.1.0 \
-  -profile <docker/singularity/podman/shifter/charliecloud/conda/institute> \
+  -profile <docker/singularity/.../institute> \
   --input samplesheet.csv \
   --outdir results/
 ```
