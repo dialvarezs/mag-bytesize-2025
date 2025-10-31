@@ -428,7 +428,7 @@ transition: slide-left
 # Current Workflow (v5.1)
 
 <div class="mt--15 flex justify-center">
-<img src="./images/mag_metromap_light.svg" style="width: 85%" />
+<img src="./images/mag_metromap_light.svg" style="width: 82%" />
 </div>
 
 <!--
