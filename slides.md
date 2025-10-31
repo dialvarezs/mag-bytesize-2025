@@ -162,7 +162,7 @@ transition: slide-left
 
 </div>
 
-<div class="mt-6 bg-gray-100 dark:bg-gray-800 rounded-lg p-3">
+<div class="mt-4 bg-gray-100 dark:bg-gray-800 rounded-lg p-3">
 <div class="grid grid-cols-[auto_1fr_auto] gap-6 items-center">
 
 <div class="text-sm font-bold opacity-70 whitespace-nowrap">Thanks! 🙏</div>
@@ -175,7 +175,7 @@ Maxime Borry
 
 <div class="flex items-center gap-2 text-xs">
 <img src="./images/profiles/other_contributors.png" class="h-15" />
-<span class="whitespace-nowrap"><span class="font-bold">+ many other contributors</span></span>
+<span class="whitespace-nowrap">+ many other contributors</span>
 </div>
 
 </div>
@@ -248,7 +248,7 @@ transition: slide-left
 # What's New?
 
 
-<div class="bg-gradient-to-r from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-10 max-w-4xl mt-10">
+<div class="bg-gradient-to-r from-teal-50 to-blue-50 dark:from-teal-900/30 dark:to-blue-900/30 rounded-xl p-10 max-w-4xl mt-6">
 
 <h2 class="text-center mb-5">🚀 Just Released!</h2>
 <h3 class="text-center mb-10">v5.1.0 - <span class="font-italic">Platinum Pudu</span></h3>
